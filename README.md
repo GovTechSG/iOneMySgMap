@@ -3,11 +3,14 @@
 A tile server to serve map tiles for Singapore based off the
 [Singapore Metro Extract](https://mapzen.com/openmaptiles/datametro-extracts/metro/singapore/)
 
+## Submodules
+Remember to checkout the submodules: `git submodules update --init`
+
 ## Building the Tiles
 
 The script `build.sh` will build the tiles in `openmaptiles/data`.
 
-### Serving the tiles
+## Serving the tiles
 
 You can serve the tiles for [MapBox GL](https://github.com/mapbox/mapbox-gl-js) using
 [`tileserver-gl`](https://github.com/klokantech/tileserver-gl).
