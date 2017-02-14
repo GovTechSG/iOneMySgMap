@@ -1,0 +1,11 @@
+# Mapnik XML
+data.xml
+*.thumb.png
+*.swp
+*.pbf
+
+# imput / output data
+data/*
+
+# generated source files
+build/*

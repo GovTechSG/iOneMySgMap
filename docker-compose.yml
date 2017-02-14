@@ -1,8 +1,9 @@
-version: "2.0"
+version: "2.1"
 services:
   tileserver:
     image: klokantech/tileserver-gl
+    userns_mode: host
     ports:
       - 8080:80
     volumes:
-      - ./data:/data
+      - ./openmaptiles/data:/data
