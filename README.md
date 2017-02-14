@@ -4,7 +4,7 @@ A tile server to serve map tiles for Singapore based off the
 [Singapore Metro Extract](https://mapzen.com/openmaptiles/datametro-extracts/metro/singapore/)
 
 ## Submodules
-Remember to checkout the submodules: `git submodules update --init`
+Remember to checkout the submodules: `git submodule update --init`
 
 ## Building the Tiles
 
