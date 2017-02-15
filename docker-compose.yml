@@ -1,7 +1,7 @@
 version: "2.1"
 services:
   tileserver:
-    image: klokantech/tileserver-gl
+    image: klokantech/tileserver-gl:v1.4.1
     userns_mode: host
     ports:
       - 8080:80
