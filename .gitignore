@@ -9,3 +9,5 @@ data/*
 
 # generated source files
 build/*
+
+docker-compose.override.yml
