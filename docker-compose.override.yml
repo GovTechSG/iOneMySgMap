@@ -1,5 +1,0 @@
-version: "2.1"
-services:
-  tileserver:
-    ports:
-      - 8080:80

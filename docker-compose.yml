@@ -3,7 +3,7 @@ services:
   tileserver:
     image: klokantech/tileserver-gl
     userns_mode: host
-    expose:
-      - 80
+    ports:
+      - 8080:80
     volumes:
       - ./openmaptiles/data:/data
