@@ -66,7 +66,7 @@ echo "====> : Start generating MBTiles (containing gzipped MVT PBF) from a TM2So
 docker-compose run --rm \
   -e BBOX="103.062, 0.807, 104.545, 1.823" \
   -e MIN_ZOOM="0" \
-  -e MAX_ZOOM="18" \
+  -e MAX_ZOOM="20" \
   -e OSM_AREA_NAME="Singapore Metro Area" \
   generate-vectortiles
 
