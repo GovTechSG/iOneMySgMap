@@ -1,0 +1,18 @@
+{
+  "options": {
+    "paths": {
+      "root": "/config",
+      "fonts": "fonts",
+      "sprites": "sprites",
+      "styles": "styles",
+      "mbtiles": "/tiles"
+    }
+  },
+  "styles": {
+  },
+  "data": {
+    "singapore": {
+      "mbtiles": "singapore.mbtiles"
+    }
+  }
+}
