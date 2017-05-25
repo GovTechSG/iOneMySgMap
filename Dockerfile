@@ -1,6 +1,7 @@
 FROM klokantech/tileserver-gl:v1.4.1
 
 RUN set -x \
+    && rm -rf /var/lib/apt/lists/* \
     && apt-get update \
     && apt-get install -y jq curl
 
