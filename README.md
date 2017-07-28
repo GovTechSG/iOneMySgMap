@@ -1,7 +1,7 @@
 # iOneMySgMap
 
 A tile server to serve map tiles for Singapore based off the
-[Singapore Metro Extract](https://mapzen.com/openmaptiles/datametro-extracts/metro/singapore/)
+[Singapore Metro Extract](https://mapzen.com/data/metro-extracts/metro/singapore/)
 
 ## Submodules
 
