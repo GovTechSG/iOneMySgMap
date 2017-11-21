@@ -2,7 +2,10 @@ version: "2"
 services:
   generate-vectortiles:
     environment:
-      BBOX: "103.062, 0.807, 104.545, 1.823"
+      DIFF_MODE: "false"
+      BBOX: "103.062,0.807,104.545,1.823"
       OSM_AREA_NAME: "Singapore Metro Area"
+      QUICKSTART_MIN_ZOOM: "0"
+      QUICKSTART_MAX_ZOOM: "18"
       MIN_ZOOM: "0"
-      MAX_ZOOM: "20"
+      MAX_ZOOM: "18"
