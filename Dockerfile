@@ -1,4 +1,4 @@
-FROM klokantech/tileserver-gl:v1.7.0
+FROM klokantech/tileserver-gl:v2.3.0
 
 RUN set -x \
     && rm -rf /var/lib/apt/lists/* \

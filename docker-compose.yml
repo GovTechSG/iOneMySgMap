@@ -6,4 +6,4 @@ services:
     ports:
       - 8000:80
     volumes:
-      - ./tiles:/tiles
+      - ./openmaptiles/data/tiles.mbtiles:/tiles/singapore.mbtiles
