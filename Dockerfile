@@ -18,6 +18,8 @@ RUN /config/jq.sh
 RUN mkdir -p /tiles \
     && curl -L https://github.com/Neo-Type/iOneMySgMap/releases/download/20180202/singapore.mbtiles -o /tiles/singapore.mbtiles
 
+EXPOSE 8080
+RUN sed -e 's@ 80 @ 8080 @' -i /usr/src/app/run.sh
 
 ENTRYPOINT []
 CMD ["/usr/src/app/run.sh", "--config=/config/config.json"]
