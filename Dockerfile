@@ -1,9 +1,9 @@
 FROM klokantech/tileserver-gl:v2.3.0
 
 RUN set -x \
-    && rm -rf /var/lib/apt/lists/* \
     && apt-get update \
-    && apt-get install -y jq curl
+    && apt-get install -y jq curl \
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /config
 
@@ -14,6 +14,10 @@ RUN set -x \
 COPY config/config.json /config/config.json
 COPY config/jq.sh /config/jq.sh
 RUN /config/jq.sh
+
+RUN mkdir -p /tiles \
+    && curl -L https://github.com/Neo-Type/iOneMySgMap/releases/download/20180202/singapore.mbtiles -o /tiles/singapore.mbtiles
+
 
 ENTRYPOINT []
 CMD ["/usr/src/app/run.sh", "--config=/config/config.json"]
