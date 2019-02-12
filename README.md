@@ -1,7 +1,7 @@
 # iOneMySgMap
 
 A tile server to serve map tiles for Singapore based off the
-[Singapore Metro Extract](https://mapzen.com/data/metro-extracts/metro/singapore/)
+[Geofabrik OSM Data Extracts](http://download.geofabrik.de/index.html)
 
 ## Submodules
 
@@ -35,5 +35,5 @@ The build script is based off the quick start script from [OpenMapTiles](http://
 Map data, and libraries are credited below:
 
 - [© OpenMapTiles](http://openmaptiles.org/)
-- [© MapZen](https://mapzen.com/)
+- [© Geofabrik GmbH](http://www.geofabrik.de/)
 - [© OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
